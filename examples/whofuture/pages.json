@@ -1,0 +1,66 @@
+{
+    "pages": [
+        {
+            "path": "pages/home/main",
+            "style": {
+                "navigationBarTitleText": "首页"
+            }
+        },
+		{
+		    "path": "pages/PersonalCenter/main",
+		    "style": {
+		        "navigationBarTitleText": "我的"
+		    }
+		},
+		{
+		    "path": "pages/SchoolLife/main",
+		    "style": {
+		        "navigationBarTitleText": "校园生活"
+		    }
+		},
+		{
+		    "path": "pages/SelectSchool/main",
+		    "style": {
+		        "navigationBarTitleText": "选学校"
+		    }
+		}
+    ],
+    "globalStyle": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "F3F3F3",
+        "navigationBarTitleText": "谁的未来",
+        "navigationBarTextStyle": "black"
+    },
+    "tabBar": {
+		"backgroundColor": "#fff",
+        "color": "#666",
+		"borderStyle": "black",
+        "selectedColor": "#b4282d",
+        "list": [
+            {
+                "pagePath": "pages/home/main",
+                "text": "首页",
+                "iconPath": "static/icon/tabbar/tab-icon1.png",
+                "selectedIconPath": "static/icon/tabbar/tab-icon1-press.png"
+            },
+            {
+                "pagePath": "pages/SelectSchool/main",
+                "text": "选学校",
+                "iconPath": "static/icon/tabbar/tab-icon2.png",
+                "selectedIconPath": "static/icon/tabbar/tab-icon2-press.png"
+            },
+            {
+                "pagePath": "pages/SchoolLife/main",
+                "text": "校园生活",
+                "iconPath": "static/icon/tabbar/tab-icon3.png",
+                "selectedIconPath": "static/icon/tabbar/tab-icon3-press.png"
+            },
+            {
+                "pagePath": "pages/PersonalCenter/main",
+                "text": "我的",
+                "iconPath": "static/icon/tabbar/tab-icon4.png",
+                "selectedIconPath": "static/icon/tabbar/tab-icon4-press.png"
+            }
+        ]
+    }
+}
