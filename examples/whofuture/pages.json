@@ -1,21 +1,10 @@
 {
     "pages": [
-        {
-            "path": "pages/home/main",
-            "style": {
-                "navigationBarTitleText": "首页"
-            }
-        },
 		{
-		    "path": "pages/PersonalCenter/main",
+		    "path": "pages/Classification/main",
 		    "style": {
-		        "navigationBarTitleText": "我的"
-		    }
-		},
-		{
-		    "path": "pages/SchoolLife/main",
-		    "style": {
-		        "navigationBarTitleText": "校园生活"
+		        "navigationBarTitleText": "智能分类",
+				"navigationStyle":"custom"
 		    }
 		},
 		{
@@ -23,13 +12,48 @@
 		    "style": {
 		        "navigationBarTitleText": "选学校"
 		    }
-		}
+		},
+        {
+            "path": "pages/home/main",
+            "style": {
+                "navigationBarTitleText": "首页"
+            }
+        },
+		{
+		    "path": "pages/SchoolLife/main",
+		    "style": {
+		        "navigationBarTitleText": "校园生活"
+		    }
+		},
+		{
+            "path" : "components/bar/bar",
+            "style" : {}
+        }
     ],
+	"subPackages":[{
+		"root":"pages/pagesA/",
+		"pages":[{
+			"path": "Analysis/main",
+			"style": {
+			    "navigationBarTitleText": "个人综合报告"
+			}
+		}]
+	},
+	{
+		"root":"pages/pagesB/",
+		"pages":[{
+			"path": "Search/search",
+			"style": {
+			    "navigationBarTitleText": "智能搜索"
+			}
+		}]
+	}],
     "globalStyle": {
         "backgroundTextStyle": "light",
-        "navigationBarBackgroundColor": "F3F3F3",
+        "navigationBarBackgroundColor": "#fff",
         "navigationBarTitleText": "谁的未来",
-        "navigationBarTextStyle": "black"
+        "navigationBarTextStyle": "black",
+		"borderStyle":"black"
     },
     "tabBar": {
 		"backgroundColor": "#fff",
@@ -56,8 +80,8 @@
                 "selectedIconPath": "static/icon/tabbar/tab-icon3-press.png"
             },
             {
-                "pagePath": "pages/PersonalCenter/main",
-                "text": "我的",
+                "pagePath": "pages/Classification/main",
+                "text": "智能分类",
                 "iconPath": "static/icon/tabbar/tab-icon4.png",
                 "selectedIconPath": "static/icon/tabbar/tab-icon4-press.png"
             }

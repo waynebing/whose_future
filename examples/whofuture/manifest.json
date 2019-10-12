@@ -47,6 +47,21 @@
     /* 快应用特有相关 */
     "mp-weixin" : {
         /* 小程序特有相关 */
-        "appid" : "wxfc5822bf9ea5bc50"
+        "appid" : "wxfc5822bf9ea5bc50",
+        "setting" : {
+            "minified" : true,
+            "urlCheck" : false
+        }
+    },
+    "h5" : {
+        "router" : {
+            "base" : "/public/",
+            "mode" : "hash"
+        },
+        "devServer" : {
+            "https" : false
+        },
+        "template" : "",
+        "title" : "谁的未来"
     }
 }
